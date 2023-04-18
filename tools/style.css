@@ -1,0 +1,40 @@
+/* Membuat style untuk elemen <p> */
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  /* Membuat style untuk elemen <div> yang memuat artikel */
+  #output {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  /* Membuat style untuk elemen <div> yang memuat kotak */
+  .box {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Membuat style untuk elemen <div> yang memuat textarea dan tombol */
+  #inputContainer {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Membuat style untuk elemen <textarea> */
+  #inputTextarea {
+    flex-grow: 1;
+    margin-right: 10px;
+    resize: none;
+  }
+  
